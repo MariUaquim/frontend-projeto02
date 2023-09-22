@@ -1,0 +1,64 @@
+body{
+    margin:0px;
+    background-color:#F8F8F8;
+}
+#conteudo{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: .5px 10px 15px rgba(0, 0, 0, .2);
+    padding: 25px;
+    margin: 25px auto;
+}
+#conteudo h3{
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+#conteudo form{
+    padding-bottom: 100px;
+}
+
+#conteudo a{
+    color:#222 ;
+    transition: .5s;
+}
+#conteudo a:hover{
+    color: #E616C5;
+}
+
+
+.btn-danger{
+    background-color: #E616C5;
+    border-color: #b8139d;
+}
+.btn-danger[type='submit']:hover{
+    background-color: #b8139d;
+    border-color: #680c59;
+}
+.form-control{
+    color:rgb(75, 74, 74) ;
+    border:0px;
+    border-radius: 0px;
+    border-bottom: 1px solid #CCC;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+
+#conteudo .form-floating label{
+    color:#CCC ;
+}
+#conteudo .form-floating .form-control:focus ~ label{
+    color:#222 ;
+}
+
+.form-check-input:checked {
+    background-color: #E616C5;
+    border-color: #b8139d;
+}
+.link-container{
+    text-align: center;
+    padding-top: 50px;
+}
+.align-items-center{
+    padding-top: 25px;
+}
